@@ -4,6 +4,9 @@ import footerlogo from './footerlogo.svg'
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
 import twitter from './twitter.svg'
+
+
+
 export default function Footer() {
   return (
     <footer>
@@ -36,7 +39,9 @@ export default function Footer() {
        </div>
        </div>
        <div className='bottom'>
-        <div className="socials">
+        <div  className="socials">
+        
+        
           <img src={facebook} alt="facebook logo" />
           <img src={instagram} alt="instagram logo" />
           <img src={twitter} alt="twitter logo" />

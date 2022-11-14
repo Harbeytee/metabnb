@@ -7,7 +7,7 @@ import stars from './secondSectionImage/stars.svg'
 export default function SecondSection() {
   const grid = adventureGrid.map((img, index) => (
     <div key ={index} className='card'>
-      <img  src={img.img} alt="mage of house" className="adventure-imgs" />
+      <img  src={img.img} alt="image of house" className="adventure-imgs" />
       <div className='flex'>
         <p>Desert king</p>
         <strong>1MBT per night</strong>
