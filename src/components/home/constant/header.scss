@@ -29,6 +29,7 @@ $purple: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     background-color: white;
     transition: 0.4s ease-in-out;
     transform: translateX(-100%);
+    z-index: 100;
     ul {
         display: flex;
         flex-direction: column;
