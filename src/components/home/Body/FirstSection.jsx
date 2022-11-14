@@ -3,7 +3,7 @@ import firsthouse from './firstSectionImages/firsthouse.svg'
 import secondhouse from './firstSectionImages/secondhouse.svg'
 import thirdhouse from './firstSectionImages/thirdhouse.svg'
 import fourthhouse from './firstSectionImages/fourthhouse.svg'
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function FirstSection() {
   return (
     <section className='first-section'>
@@ -18,12 +18,12 @@ export default function FirstSection() {
         </article>
         <aside>
             <div className="first">
-                <img src={firsthouse} alt="" />
-                <img src={secondhouse} alt="" />
+                <LazyLoadImage src={firsthouse} alt="" />
+                <LazyLoadImage src={secondhouse} alt="" />
             </div>
             <div className="second">
-                <img src={thirdhouse} alt="" />
-                <img src={fourthhouse} alt="" />
+                <LazyLoadImage src={thirdhouse} alt="" />
+                <LazyLoadImage src={fourthhouse} alt="" />
             </div>
 
         </aside>
