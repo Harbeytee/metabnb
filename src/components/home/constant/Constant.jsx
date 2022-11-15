@@ -12,11 +12,15 @@ export default function Constant(props) {
   return (
     <>
     {props.popup &&
-      <div  className="popup-container">
+      <div className="popup-container">
         <div className="popup">
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
             <span style={{fontSize: '24px', fontWeight: '700'}}>Connect Wallet</span>
-            <LazyLoadImage onClick={props.closePopup} src={eks} alt="close popup" className="eks" />
+            <div onClick={props.closePopup} className="eks">
+              <div></div>
+              <div></div>
+            </div>
+            {/*<LazyLoadImage onClick={props.closePopup} src={eks} alt="close popup" className="eks" />*/}
           </div>
 
           <div className="line"></div>

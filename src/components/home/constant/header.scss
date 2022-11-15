@@ -22,14 +22,16 @@ $purple: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     
     padding-top: 3rem;
     width: 80%;
+    max-width: 400px;
     height: 100%;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     position: fixed;
     background-color: white;
     transition: 0.4s ease-in-out;
     transform: translateX(-100%);
     z-index: 100;
+    transform-origin: 1px;
     ul {
         display: flex;
         flex-direction: column;
@@ -69,6 +71,7 @@ $purple: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     }
     
     #navbar {
+        
         display: block;
         padding-top: 0rem;
         display: flex;
@@ -77,11 +80,13 @@ $purple: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         align-items: center;
         font-weight: 400;
         justify-content: space-around;
-        transform: translateX(0);
+       
+            transform: translateX(0);
+        
         padding-top: 2rem;
         margin-bottom: 1.5rem;
         
-       
+       max-width: 100%;
        
         
       
@@ -115,6 +120,7 @@ $purple: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
        
     
     }
+    
     .first-section {
         display: flex;
     }
