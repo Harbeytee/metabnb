@@ -30,7 +30,7 @@ export default function Constant(props) {
             <div style={{backgroundColor: '#f5f8fa'}} className="connect-wallet">
               <div className='connect-btn'>
                 <LazyLoadImage src={wolf} alt="" className="icon" />
-                <strong style={{color: 'black'}}>Metamask</strong>
+                <strong style={{color: 'black', fontFamily: "'Sora', sans-serif"}}>Metamask</strong>
               </div>
               <LazyLoadImage src={chevron} alt="" className="right" />
             </div>
