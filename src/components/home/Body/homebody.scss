@@ -3,7 +3,7 @@ h1 {
     font-size: 1.7rem;
     text-align: center;
     margin-bottom: 2.5rem;
-    font-weight: 500;
+    font-weight: 450;
     padding-top: 2.6rem;
    
     }
@@ -20,7 +20,7 @@ h1 {
     height: 100%;
     aside {
         .first *, .second * {
-            margin-top: 1rem;
+            margin-top: 1.2rem;
         }
         margin-left: 2rem;
        
@@ -90,7 +90,7 @@ h1 {
 }
 .second-section {
     color: black;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     display: grid;
     place-items: center;
    width: 100%;
@@ -255,13 +255,13 @@ h1 {
 }
 .line {
     width: 100%;
-    height: 2px;
+    height: 1.8px;
     display: block;
     background-color: #CFD8DC;
     position: absolute;
     left: 0;
     top: 55px;
-    margin-top: 0.4rem;
+    margin-top: 0.45rem;
 }
 .icon {
     margin-right: 0.9rem;
@@ -381,7 +381,7 @@ h1 {
     
     .second-section {
         h2 {
-            font-size: 28px;
+            font-size: 48px;
         }
     }
     .flex {
