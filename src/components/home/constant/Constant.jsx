@@ -30,7 +30,7 @@ export default function Constant(props) {
             <div style={{backgroundColor: '#f5f8fa'}} className="connect-wallet">
               <div className='connect-btn'>
                 <LazyLoadImage src={wolf} alt="" className="icon" />
-                <strong>Metamask</strong>
+                <strong style={{color: black}}>Metamask</strong>
               </div>
               <LazyLoadImage src={chevron} alt="" className="right" />
             </div>
@@ -38,7 +38,7 @@ export default function Constant(props) {
             <div className="connect-wallet">
               <div className='connect-btn'>
                 <LazyLoadImage src={wallet} alt="" className="icon" />
-                <strong>WalletConnect</strong>
+                <strong style={{color: black}}>WalletConnect</strong>
               </div>
               <LazyLoadImage src={chevron} alt="" className="right" />
 
